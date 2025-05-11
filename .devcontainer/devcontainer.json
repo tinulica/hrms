@@ -1,0 +1,11 @@
+{
+  "name": "Frappe HRMS Codespace",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [8000],
+  "postCreateCommand": "bash .devcontainer/init.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["eamodio.gitlens", "ms-python.python"]
+    }
+  }
+}
